@@ -1,6 +1,6 @@
 .App {
     display: flex;
-    height: calc(100vh - 30px);
+    height: calc(100vh - 50px);
 }
 
 .hijo {
@@ -23,18 +23,26 @@
     cursor: pointer;
 }
 
-.color:nth-child(1) {
-    background-color: #4285f4;
+h4{
+    width: 152px;
+    height: 22px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
 }
 
 .color:nth-child(2) {
-    background-color: #ea4335;
+    background-color: #4285f4;
 }
 
 .color:nth-child(3) {
-    background-color: #fbbc05;
+    background-color: #ea4335;
 }
 
 .color:nth-child(4) {
+    background-color: #fbbc05;
+}
+
+.color:nth-child(5) {
     background-color: #34a853;
 }
